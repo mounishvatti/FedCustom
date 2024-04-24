@@ -4,6 +4,9 @@ This repository explores the concept of Federated Learning and compares it with 
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bOIk6g8tfGBx0m1XAurTijnVFPbZYbEt?usp=sharing)
 
+<img width="842" alt="Screenshot 2024-04-15 at 7 39 13 PM" src="https://github.com/mounishvatti/federated-learning/assets/76279858/346a51c9-e387-4570-8229-72aa779b8732">
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -40,6 +43,26 @@ In this repository, we delve into implementing Federated Learning using the Flow
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
 
+## Results
+
+| Methodology           | Accuracy in (%) | Model used |
+|-----------------------|----------------|-------------|
+| Centralized Approach  | 98.5           | CNN                               |
+| FedAvg                | 95.4           | Logistic Regression + 2 Layer CNN |
+| FedCustom (Hypertuned)| 98.24          | Custom Hypertuned FedAvg          |
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## References
+- https://flower.ai/docs/framework/
+
+```python  
+@article{beutel2020flower,
+  title={Flower: A Friendly Federated Learning Research Framework},
+  author={Beutel, Daniel J and Topal, Taner and Mathur, Akhil and Qiu, Xinchi and Fernandez-Marques, Javier and Gao, Yan and Sani, Lorenzo and Kwing, Hei Li and Parcollet, Titouan and Gusmão, Pedro PB de and Lane, Nicholas D},
+  journal={arXiv preprint arXiv:2007.14390},
+  year={2020}
+}
+```
