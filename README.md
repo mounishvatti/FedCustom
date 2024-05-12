@@ -39,6 +39,11 @@ In this repository, we delve into implementing Federated Learning using the Flow
 - Python: Programming language used for implementing machine learning models and scripts.
 - [Flower Framework](https://flower.ai): An open-source framework for federated learning.
 
+## Our hybrid framework
+
+![image](https://github.com/mounishvatti/federated-learning/assets/76279858/675bd08c-576b-4b41-b000-35d7cb49609e)
+
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
