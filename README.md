@@ -41,7 +41,7 @@ In this repository, we delve into implementing Federated Learning using the Flow
 
 ## Our hybrid framework
 
-![image](https://github.com/mounishvatti/federated-learning/assets/76279858/675bd08c-576b-4b41-b000-35d7cb49609e)
+![image](https://github.com/mounishvatti/FedCustom/assets/76279858/4bdb2a44-7c01-4961-9bba-03ebe48ce630)
 
 
 ## Contributing
